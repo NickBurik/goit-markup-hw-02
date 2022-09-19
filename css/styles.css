@@ -2,15 +2,14 @@
   --primari-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --hover-color-btn: #188CE8;
   --logo-color: #000000;
   --footer-logo-color: #ffffff;
   --hover-color: #2196f3;
-  --hover-text-color: #ffffff;
   --page-bg-color: #ffffff;
   --section-bg-color: #2f303a;
   --footer-auth-color: rgba(255, 255, 255, 0.6);
   --bgc-ourteam-color: #f5f4fa;
-  --filter-bg-color: #f5f4fa;
 }
 
 .list {
@@ -118,8 +117,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: var(--hover-text-color);
+  color: var(--footer-logo-color);
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-color-btn);
+}
+
 
 /* ------------section-benefits--------------- */
 
@@ -226,7 +231,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  background-color: var(--filter-bg-color);
+  background-color: var(--bgc-ourteam-color);
   color: var(--title-text-color);
 }
 
@@ -252,7 +257,3 @@ body {
   color: var(--primari-text-color);
 }
 
-.work-link:hover .title,
-.work-link:hover .title {
-  color: var(--accent-color);
-}
